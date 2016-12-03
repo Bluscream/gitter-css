@@ -573,4 +573,8 @@ a.room-item__container.active .room-item__title,a.room-item__container:hover .ro
   color: #BBBBBB;
 }
 
+input {
+  background-color:#bdbdbd;
+}
+
 /*# sourceMappingURL=http://beta-internal:8080/job/gitter-webapp-build-step/10556/artifact/output/maps/dark-theme.css.map */
