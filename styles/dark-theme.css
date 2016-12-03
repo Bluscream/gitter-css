@@ -577,4 +577,12 @@ input {
   background-color:#bdbdbd;
 }
 
+.dropdown {
+  background-color:#444444;
+}
+
+.dropdown a {
+  color:#c5c5c5;
+}
+
 /*# sourceMappingURL=http://beta-internal:8080/job/gitter-webapp-build-step/10556/artifact/output/maps/dark-theme.css.map */
