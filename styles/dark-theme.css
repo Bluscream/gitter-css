@@ -600,4 +600,17 @@ input {
   background-color: #2d2c2c;
 }
 
+.popover {
+  color: #DFDFDF;
+  background-color: rgb(45, 44, 44);
+}
+
+.popover a {
+  color: #59B4FF;
+}
+
+.popover-footer {
+  background-color: rgb(45, 44, 44);
+}
+
 /*# sourceMappingURL=http://beta-internal:8080/job/gitter-webapp-build-step/10556/artifact/output/maps/dark-theme.css.map */
