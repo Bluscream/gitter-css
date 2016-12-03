@@ -549,4 +549,12 @@ a.room-item__container.active .room-item__title,a.room-item__container:hover .ro
     border-color: #222
 }
 
+#repo-info {
+  color: #DFDFDF;
+}
+
+#repo-info a {
+  color: #59B4FF;
+}
+
 /*# sourceMappingURL=http://beta-internal:8080/job/gitter-webapp-build-step/10556/artifact/output/maps/dark-theme.css.map */
