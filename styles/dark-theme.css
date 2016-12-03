@@ -1,0 +1,552 @@
+body {
+    background-color: #434141
+}
+
+.chat-item code,.topic-body__content code {
+    border: none;
+    background-color: #23241f;
+    padding: .2rem .5rem
+}
+
+.room-menu-options__item--header-spacer {
+    background-color: #2d2c2c
+}
+
+.room-menu-options__item--header-spacer:after {
+    background-color: inherit
+}
+
+.room-menu-options__item__unread-indicator,.room-menu-options__item__unread-indicator.has-mentions {
+    border: 2px solid #383736
+}
+
+.header-brand-container {
+    background-color: #2d2c2c
+}
+
+.header-brand-container:after {
+    background-color: #2d2c2c
+}
+
+.chat-header__favourite.favourite i {
+    color: #f1c40f
+}
+
+.icon-svg .icon {
+    stroke: #aeaeae;
+    fill: #aeaeae
+}
+
+.favourite-collection.dragging-all:before {
+    background-color: #353433
+}
+
+.room-menu-options__item__community-create-icon {
+    color: #aeaeae
+}
+
+.menu-toggle-icon {
+    stroke: #aeaeae
+}
+
+.minibar {
+    background-color: #383736;
+    border-color: #2d2c2c
+}
+
+.room-menu__panel {
+    background-color: #383736;
+    border-color: #2d2c2c
+}
+
+.panel-footer__item--all {
+    background: -webkit-gradient(linear,left top,left bottom,from(rgba(56,55,54,0)),color-stop(35%,#383736));
+    background: -webkit-linear-gradient(top,rgba(56,55,54,0),#383736 35%);
+    background: linear-gradient(top,rgba(56,55,54,0),#383736 35%)
+}
+
+.left-menu-search.active input {
+    color: white
+}
+
+.left-menu-search.active .left-menu-search__clear {
+    color: white
+}
+
+.room-item__container.active,.room-item__container:hover {
+    background-color: #2d2c2c!important
+}
+
+.room-item__options-menu {
+    background: none
+}
+
+.room-item__options-menu__item:before {
+    background: none
+}
+
+.room-item__options-menu__item button {
+    padding-left: 2.5rem;
+    margin-left: 2rem
+}
+
+.room-item__options-menu__item:hover button {
+    background: #2d2c2c;
+    color: white
+}
+
+.panel-footer__create-room,.panel-footer__button {
+    color: white;
+    border-color: white
+}
+
+.room-item__title {
+    color: #bbb
+}
+
+.left-menu-forum-category-item {
+    color: #bbb
+}
+
+.left-menu-forum-category-item:hover,.left-menu-forum-category-item:focus {
+    background-color: #2d2c2c!important;
+    color: white!important
+}
+
+a.room-item__container.active .room-item__title,a.room-item__container:hover .room-item__title {
+    color: white!important
+}
+
+.chat-header {
+    background-image: none;
+    background-color: #2d2c2c
+}
+
+.chat-header__title,.chat-header__topic {
+    color: #bbb7b7
+}
+
+.chat-header__action-icon {
+    color: #aaa
+}
+
+.chat-app,.trpContentPanel {
+    background-color: #434141
+}
+
+.chat-container {
+    background-color: #434141
+}
+
+.chat-item {
+    color: #aaa
+}
+
+.loading-frame {
+    background-color: rgba(0,0,0,.5)
+}
+
+.mention {
+    color: #f69047
+}
+
+.chat-item.mentioned .chat-item__text .mention {
+    background-color: #222
+}
+
+.chat-connectivity-indicator {
+    background-color: #383736
+}
+
+.chat-item:hover {
+    background-color: #403e3e!important
+}
+
+.chat-item__text {
+    color: #ccc
+}
+
+.chat-item__text a {
+    color: #46bc99
+}
+
+.issue-popover-body .chat-item__text {
+    color: #333
+}
+
+.chat-item__text table tr:nth-child(2n) {
+    background-color: #363434
+}
+
+.chat-item.unread .chat-item__container {
+    background-color: rgba(46,204,113,.2)
+}
+
+.chat-item.unread.mentioned .chat-item__container {
+    background-color: rgba(230,126,34,.2)
+}
+
+.chat-item__status .chat-item__text {
+    color: #aaa
+}
+
+.chat-item__status .mention {
+    color: #aaa
+}
+
+.chat-input {
+    background-color: #434141
+}
+
+.chat-input__text-area,.trpChatInput {
+    background-color: #434141;
+    color: #ccc
+}
+
+.chat-input__button-icon {
+    color: #ccc
+}
+
+.right-toolbar-region .right-toolbar {
+    background: #383736;
+    border-color: #2d2c2c
+}
+
+.trpStatus {
+    border-color: #383736
+}
+
+.trpDisplayPicture.offline .trpStatus {
+    background-color: #383736
+}
+
+.activity-item,.activity-tip {
+    color: #ccc
+}
+
+.activity-item a,.activity-tip a {
+    color: #b3b3b3
+}
+
+.activity-item:hover,.activity-tip:hover {
+    background-color: #353433
+}
+
+.activity-commit .commit {
+    background-color: #222;
+    color: #d0abff
+}
+
+.activity-item:hover .gtrActivityItemText {
+    color: white
+}
+
+.activity-item:hover .activity-item__icon {
+    color: white
+}
+
+.issue.open {
+    color: #46bc99
+}
+
+.issue.closed {
+    color: #ed1965
+}
+
+.issue.is-existent.closed {
+    color: #ed1965;
+    background-color: #222;
+    border-color: #222
+}
+
+.issue.is-existent.open {
+    color: #46bc99;
+    background-color: #222;
+    border-color: #222
+}
+
+.gtrActivityItemText .mention {
+    background-color: #222;
+    border-color: #222
+}
+
+.gtrActivityItemText .mention:hover {
+    border-color: #222
+}
+
+.right-toolbar-region__footer {
+    background: -webkit-gradient(linear,left top,left bottom,from(rgba(56,55,54,0)),color-stop(35%,#383736));
+    background: -webkit-linear-gradient(top,rgba(56,55,54,0),#383736 35%);
+    background: linear-gradient(top,rgba(56,55,54,0),#383736 35%)
+}
+
+.right-toolbar-region__footer .menu-toggle-icon {
+    opacity: .45;
+    will-change: opacity
+}
+
+.right-toolbar-region__footer .menu-toggle-icon:hover {
+    stroke: #aeaeae;
+    color: #aeaeae;
+    opacity: 1
+}
+
+.org-page-main {
+    background-color: #434141
+}
+
+.org-page__header {
+    background-image: none;
+    background-color: #2d2c2c
+}
+
+.org-page__header-heading a {
+    color: #bbb7b7
+}
+
+.org-page__header-share-link {
+    color: #bbb7b7;
+    border-color: #bbb7b7
+}
+
+.org-page__room-item,.org-page__topic-item {
+    border-top-color: #2d2c2c;
+    border-right-color: #2d2c2c;
+    border-bottom-color: #2d2c2c
+}
+
+.org-page__room-item-heading,.org-page__topic-item-heading {
+    color: #dedddc
+}
+
+.org-page__room-item-description,.org-page__topic-item-description {
+    color: #bbb
+}
+
+.org-page__room-item-details,.org-page__topic-item-details {
+    color: #bbb
+}
+
+.org-page__room-item__tag-item {
+    background-color: #646362;
+    color: #dedddc
+}
+
+.org-page__pagination a {
+    color: #dedddc;
+    border-color: #2d2c2c
+}
+
+.org-page__pagination a:hover {
+    background-color: #464444;
+    color: #dedddc
+}
+
+.org-page__pagination .active a {
+    background-color: #464444;
+    color: inherit
+}
+
+.explore-header {
+    background-image: none;
+    background-color: #2d2c2c
+}
+
+.explore-header__heading {
+    color: #bbb7b7
+}
+
+.explore-page-wrap {
+    background-color: #434141
+}
+
+.explore-header-info-bar__mobile-diagram {
+    background-color: #434141
+}
+
+.explore-header-info-bar__mobile-diagram i:before {
+    background-color: #434141
+}
+
+.explore-header-info-bar__mobile-diagram i:after {
+    background-color: #434141
+}
+
+.secondary-header-info-bar__item-icon.icon-apple {
+    position: relative;
+    z-index: 1
+}
+
+.secondary-header-info-bar {
+    border-color: #aaa
+}
+
+.secondary-header-info-bar__item,.explore-header-info-bar__mobile-item {
+    color: #bbb
+}
+
+.secondary-header-info-bar__item-icon,.explore-header-info-bar__mobile-icon {
+    color: #aaa
+}
+
+.tag-pill,.tag-pill-list-pagination-more-button {
+    background-color: #646362;
+    color: #dedddc;
+    border-color: transparent
+}
+
+.tag-pill:hover,.tag-pill-list-pagination-more-button:hover {
+    background-color: #676665
+}
+
+.explore-room-card-list-section {
+    background-color: #434141
+}
+
+.room-card {
+    opacity: 1;
+    background-color: #434141;
+    border: 1px solid #2d2c2c
+}
+
+.room-card__heading {
+    color: #dedddc
+}
+
+.room-card__topic {
+    color: #bbb
+}
+
+.room-card__tag {
+    background-color: #646362;
+    color: #dedddc
+}
+
+.room-card__footer-user-count {
+    color: #aaa;
+    border-color: #aaa
+}
+
+.room-card__footer {
+    border-color: #2d2c2c
+}
+
+.container--search {
+    background-image: none;
+    background-color: #2d2c2c
+}
+
+.topic-search__all-topics-link {
+    color: #bbb7b7
+}
+
+.topic-search__create-topic-link {
+    border-color: #aaa;
+    color: #aaa
+}
+
+.panel--category,.panel--table-control {
+    background-color: #434141;
+    border-bottom: 1px solid #2d2c2c
+}
+
+.category-list__item,.topic-control__button,.table-control__select {
+    border-color: #aaa;
+    color: #aaa
+}
+
+.table-control__select--decal:after {
+    color: #aaa
+}
+
+.panel--forum-follow-area {
+    border-bottom: none;
+    background-color: #434141
+}
+
+.topics-table-header {
+    background-color: #434141;
+    color: #bbb;
+    border-color: #595554
+}
+
+.topics-table-body__row {
+    background-color: #434141;
+    border-color: #595554
+}
+
+.topics-table-body__row:nth-child(even) {
+    background-color: #474444
+}
+
+.topics-table-body__cell__link {
+    color: #b6b0af
+}
+
+.topics-table-body__cell--replies,.topics-table-body__cell--likes {
+    color: #bbb
+}
+
+.container--topic-header {
+    background-color: #434141
+}
+
+.topic-header__title {
+    color: #dedddc
+}
+
+.panel--topic-body {
+    background-color: #434141;
+    border-color: #222
+}
+
+.topic-body__content {
+    color: #ccc
+}
+
+.topic-body__content a {
+    color: #46bc99
+}
+
+.topic-body__content a:visited {
+    color: #29735d
+}
+
+.topic-reply-list-header__heading {
+    color: #dedddc
+}
+
+.topic-reply-list-header__filter-button {
+    color: #dedddc
+}
+
+.panel--reply-list-header,.panel--topic-reply-list {
+    background-color: #363434
+}
+
+.feed-item__content {
+    background-color: #434141;
+    color: #ccc
+}
+
+.feed-item__content__header__user-display-name {
+    color: #aaa
+}
+
+.feed-item__content__header__user-user-name {
+    color: #aaa
+}
+
+.panel--reply-editor,.editor--reply {
+    background-color: #2d2c2c;
+    border-color: #222;
+    color: #ccc
+}
+
+.reply-comment-editor__editor {
+    background-color: #2d2c2c;
+    color: #ccc;
+    border-color: #222
+}
+
+/*# sourceMappingURL=http://beta-internal:8080/job/gitter-webapp-build-step/10556/artifact/output/maps/dark-theme.css.map */
