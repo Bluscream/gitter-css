@@ -557,4 +557,20 @@ a.room-item__container.active .room-item__title,a.room-item__container:hover .ro
   color: #59B4FF;
 }
 
+.welcome-modal__header {
+  color: rgb(176,172,172);
+}
+
+.welcome-modal__collaborators {
+  background-color: rgb(56,55,54);
+}
+
+.welcome-modal__collaborator {
+  background-color: #434141;
+}
+
+.welcome-modal__collaborator p {
+  color: #BBBBBB;
+}
+
 /*# sourceMappingURL=http://beta-internal:8080/job/gitter-webapp-build-step/10556/artifact/output/maps/dark-theme.css.map */
