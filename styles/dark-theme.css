@@ -589,4 +589,15 @@ input {
   color:#5ea58f;
 }
 
+.modal--default__content {
+  color:white;
+  background-color:rgb(56,55,54);
+}
+
+.modal--default__header,
+.modal--default__footer {
+  color:rgb(176,172,172);
+  background-color:#2d2c2c;
+}
+
 /*# sourceMappingURL=http://beta-internal:8080/job/gitter-webapp-build-step/10556/artifact/output/maps/dark-theme.css.map */
